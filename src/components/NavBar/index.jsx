@@ -13,7 +13,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import { logoutUser } from '../../features/user/userLoginSlice';
 
-export default function ButtonAppBar() {
+const NavBar = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const navigate = useNavigate();
@@ -77,4 +77,6 @@ export default function ButtonAppBar() {
       </AppBar>
     </Box>
   );
-}
+};
+
+export default NavBar;
