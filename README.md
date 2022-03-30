@@ -28,7 +28,7 @@
 
 ## About The Project
 
-[See Project](https://example.com)
+[See Project](https://swapi-challenge-beta.vercel.app/)
 
 In this project we use SWAPI how to endpoint. The endpoint is a REST API that returns a list of people, planets, starships, vehicles, species, and films.
 We use the [Swapi.dev](https://swapi.dev/) as an example.
