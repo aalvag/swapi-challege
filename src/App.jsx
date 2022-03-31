@@ -25,7 +25,7 @@ function App() {
           </Protected>
         }
       />
-      <Route path="/*" element={<Navigate to="/user-details" replace />} />
+      <Route path="*" element={<Navigate to="/login" replace />} />
     </Routes>
   );
 }
