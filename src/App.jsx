@@ -26,14 +26,7 @@ function App() {
         }
       />
       <Route path="/" element={<LoginScreen />} />
-      <Route
-        path="*"
-        element={
-          <>
-            <h1>404</h1>
-          </>
-        }
-      />
+      <Route path="*" element={<LoginScreen />} />
     </Routes>
   );
 }
